@@ -60,10 +60,20 @@
 }
 .btn-card{
   color: white;
-  border: none;
+  border: 0;
   text-decoration: none;
+  
   background-color: rgba(10, 10, 232, 0.751);
 }
 .btn-color{
   padding-left: 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.input-form{
+  width: 150px;
+  margin-bottom: 5px;
 }
